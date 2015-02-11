@@ -7,9 +7,6 @@ This code does two things
 
 Python is used. 
 
-```javascript
-var test = 'markdown'
-```
 
 You can remove the proxy lines of urllib2 is you don't work behind a proxy
 
