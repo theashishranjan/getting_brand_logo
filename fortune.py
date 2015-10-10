@@ -8,10 +8,10 @@ import urlparse
 import argparse
 import BeautifulSoup
 
-
-proxy_support = urllib2.ProxyHandler({"http":"http://10.10.78.62:3128"})
-opener = urllib2.build_opener(proxy_support)
-urllib2.install_opener(opener)
+# proxy settings, not needed if not behind any proxy so commented out
+#proxy_support = urllib2.ProxyHandler({"http":"http://10.10.78.62:3128"})
+#opener = urllib2.build_opener(proxy_support)
+#urllib2.install_opener(opener)
 
 def not_combining(char):
         return unicodedata.category(char) != 'Mn'
